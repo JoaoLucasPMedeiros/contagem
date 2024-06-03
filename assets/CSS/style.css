@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../IMG/wavey-fingerprint.svg');
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+h1, h2{
+    color: #ffffff;
+}
+img{
+    width: 50px;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#dia, #hora, #minu, #seg, #pai {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    #dia, #hora, #minu, #seg, #pai {
+        font-size: 2rem;
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #dia, #hora, #minu, #seg, #pai {
+        font-size: 1.5rem;
+        padding: 0.25rem;
+    }
+}
